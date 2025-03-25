@@ -245,13 +245,16 @@ git pull
 Para ter a versão mais recente do PX4:
 
 ```bash
-git clone --recursive --depth 1 --branch v1.12.3 https://github.com/PX4/PX4-Autopilot.git ~/PX4-Autopilot
-ln -s ~/PX4-Autopilot ~/catkin_ws/src/
-ln -s ~/PX4-Autopilot/Tools/sitl_gazebo ~/catkin_ws/src/
-ln -s ~/PX4-Autopilot/mavlink ~/catkin_ws/src/
+git clone --recursive --depth 1 --branch v1.12.3 https://github.com/PX4/PX4-Autopilot.git /root/catkin_ws/PX4-Autopilot
+ln -s /root/catkin_ws/PX4-Autopilot /root/catkin_ws/src/
+ln -s /root/catkin_ws/PX4-Autopilot/Tools/sitl_gazebo /root/catkin_ws/src/
+ln -s /root/catkin_ws/PX4-Autopilot/mavlink /root/catkin_ws/src/
 ```
 
 > **Dica:** Você pode usar uma versão mais recente do PX4, mas algo pode não funcionar como esperado nesse caso.
+
+> **Observação:** Eu alterei os caminhos simbolicos e alterei o local de clone do PX4-Autopilot para que os volumes do docker, persistam os arquivos, pra nao ocorrer perda.
+
 
 ### Instalar os pré-requisitos do PX4
 
@@ -290,7 +293,7 @@ pip3 install --user toml
 Adicione o airframe do Clover ao PX4 usando o comando:
 
 ```bash
-ln -s ~/catkin_ws/src/clover/clover_simulation/airframes/* ~/PX4-Autopilot/ROMFS/px4fmu_common/init.d-posix/airframes/
+ln -s /root/catkin_ws/src/clover/clover_simulation/airframes/* /root/catkin_ws/PX4-Autopilot/ROMFS/px4fmu_common/init.d-posix/airframes/
 ```
 
 ### Instalar os datasets do geographiclib
