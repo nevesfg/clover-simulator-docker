@@ -210,7 +210,7 @@ xhost +local:docker
 
 Você deve ver um container chamado `clover-sim` na lista.
 
-## 🔧 Instalação da Biblioteca Clover no Container Docker (PRIMEIRA INSTALAÇÅO)
+## 🔧 Instalação da Biblioteca Clover no Container Docker (PRIMEIRA INSTALAÇÃO)
 
 Após configurar o ambiente Docker, você precisará instalar a biblioteca Clover dentro do container. Estes passos devem ser realizados dentro do container após acessá-lo com `docker exec -it clover-sim /bin/bash`.
 
@@ -576,6 +576,6 @@ sudo usermod -aG video $USER
 
 ---
 
-📝 **Desenvolvido por:** [Victor Neves]
+📝 **Desenvolvido por:** [Victor Neves](https://www.linkedin.com/in/nevesfg/)
 
 💡 **Inspirado no projeto:** [CopterExpress/clover](https://github.com/CopterExpress/clover)
