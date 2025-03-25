@@ -9,7 +9,7 @@ Um ambiente de simulação containerizado para drones Clover usando ROS Noetic e
 
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Requisitos](#-requisitos)
-- [Instalação](#️-instalação-e-configuração)
+- [Instalação](#instalação-e-configuração)
 - [Uso](#️-como-usar)
   - [Inicialização do Simulador](#inicialização-do-simulador)
   - [Execução de Scripts](#execução-de-scripts)
