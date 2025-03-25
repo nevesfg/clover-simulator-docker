@@ -253,7 +253,7 @@ ln -s /root/catkin_ws/PX4-Autopilot/mavlink /root/catkin_ws/src/
 
 > **Dica:** Você pode usar uma versão mais recente do PX4, mas algo pode não funcionar como esperado nesse caso.
 
-> **Observação:** Eu alterei os caminhos simbolicos e alterei o local de clone do PX4-Autopilot para que os volumes do docker, persistam os arquivos, pra nao ocorrer perda.
+> **Observação:** Eu alterei os caminhos simbólicos e o local do clone do PX4-Autopilot para que os volumes do Docker persistam os arquivos, evitando perda de dados.
 
 
 ### Instalar os pré-requisitos do PX4
