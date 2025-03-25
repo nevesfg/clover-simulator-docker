@@ -30,10 +30,6 @@ RUN apt-get update && apt-get install -y \
 RUN mkdir -p /root/catkin_ws/src
 WORKDIR /root/catkin_ws/src
 
-# Comentei mas nao ê necessario descomentar, 
-# vc vai clonar o clover seguindo os passos da doc dele
-# RUN git clone --depth 1 https://github.com/CopterExpress/clover
-
 # Instalar dependências do projeto com rosdep
 WORKDIR /root/catkin_ws
 RUN apt-get update && \
