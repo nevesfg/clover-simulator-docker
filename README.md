@@ -9,8 +9,8 @@ Um ambiente de simulação containerizado para drones Clover usando ROS Noetic e
 
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Requisitos](#-requisitos)
-- [Instalação](#instalação-e-configuração)
-- [Uso](#como-usar)
+- [Instalação](#️-instalação-e-configuração)
+- [Uso](#️-como-usar)
   - [Inicialização do Simulador](#inicialização-do-simulador)
   - [Execução de Scripts](#execução-de-scripts)
   - [Comandos Úteis](#comandos-úteis)
@@ -32,7 +32,7 @@ A containerização resolve problemas comuns de dependências e configuração, 
 - Suporte a aceleração gráfica (Intel/AMD/NVIDIA)
 - Pelo menos 4GB de RAM e 10GB de espaço em disco
 
-## Instalação e Configuração
+## 🚀 Instalação e Configuração
 ### 🚀 (PRIMEIRA INSTALAÇÃO DO AMBIENTE DOCKER)
 
 ### Explicação dos Arquivos de Configuração
@@ -327,7 +327,7 @@ roslaunch clover_simulation simulator.launch
 Você pode testar voos autônomos usando os scripts de exemplo no diretório `~/catkin_ws/src/clover/clover/examples`.
 
 
-## Como usar?
+## 🎮 Como usar?
 ### 🎮 (APÓS INSTALAÇÃO DO AMBIENTE DOCKER E PRIMEIRA EXECUÇÃO!)
 
 ### Comandos Básicos
